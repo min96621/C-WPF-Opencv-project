@@ -1,0 +1,23 @@
+﻿<Window x:Class="clnt0309.home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:clnt0309"
+        mc:Ignorable="d"
+        Title="home" Height="600" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <Button Grid.Column="1" Grid.Row="1" Name="Start_Btn" FontSize="15" Click="Start_Btn_Click">시작하기</Button>
+    </Grid>
+</Window>
